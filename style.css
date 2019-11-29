@@ -1,0 +1,132 @@
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #ededed;
+    color:#fff;
+}
+.main {
+    background-color:#fff;
+}
+.container {
+    width: 900px;
+    margin:0 auto;
+    display:block;
+    text-align:center;
+}
+.logo {
+    display:block;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.top-banner {
+    position:relative;
+    text-align:center;
+    color:#fff;
+}
+.bg-img {
+    display:block;
+    max-width: 100%;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height:100%;
+    background-color:rgba(0,0,0,.5)
+}
+.top-banner .title-text {
+    font-family:'Playfair Display', serif;
+    font-style: #000;
+    margin-top: 100px;
+    margin-bottom: 75px;
+    font-size: 54px;
+}
+.text {
+    font-size:21px;
+    line-height:32px;
+    font-family: arial;
+    padding:0 110px 30px 110px;
+}
+.ship-btn {
+    margin-top: 80px;
+    border:none;
+    outline:none;
+    background-color:#181a1d;
+    font-size: 24px;
+    font-family: arial;
+    width:270px;
+    height: 60px;
+    color:#fff;
+    border-radius:60px;
+    cursor:pointer;
+}
+.ship-btn:hover {
+    color:#181a1d;
+    background-color:#fff;
+}
+.main .title-text {
+    position:relative;
+    padding-top: 50px;
+    font-family:'Playfair Display', serif;
+    font-weight:400;
+    color:#333;
+    font-size: 44px;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+.main .title-text::after {
+    position:absolute;
+    top: 90px;
+    left: 6.35em;
+    content: "";
+    display: block;
+    height: 3px;
+    width:340px;
+    background-color:#e0bf3d;
+}
+.main-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    width:900px;
+}
+.image-description {
+    position: absolute;
+    top: 25px;
+    left: 5px;
+    width: 100%;
+    height:100%;
+    color:#000;
+    font-family:'Playfair Display', serif;
+    font-size: 24px;
+    line-height: 32px;
+}
+.elem {
+    position: relative;
+    width:330px;
+    height:350px;
+}
+.elem-img {
+    display:block;
+    width:330px;
+    height:350px;
+}
+.footer {
+    background-color:#181a1d;
+    padding:90px 10px;
+}
+.footer .title-text {
+    font-family:'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 32px;
+}
+.footer .text {
+    margin-top: 50px;
+    padding:0;
+}
